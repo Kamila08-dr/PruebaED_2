@@ -4,6 +4,7 @@
  */
 package org.example;
 
+import java.util.Collection;
 import java.util.TreeSet;
 
 /**
@@ -14,6 +15,10 @@ public class Curso {
 
     private String nombre;
     private TreeSet<Persona> listaAlumnos;
+
+    public TreeSet<Persona> getListaAlumnos() {
+        return listaAlumnos;
+    }
 
     protected String getNombre() {
         return nombre;
