@@ -143,8 +143,8 @@ public class Persona implements Comparable<Persona> {
     }
 
     /**
-     * Este metodo compara si dos Objetos personas son iguales(Se consideran
-     * igual se tienen el mismo Nif)
+     * Este metodo compara si dos Objetos personas son iguales
+     * Se consideran igual se tienen el mismo Nif)
      * @param a Objeto de persona a comparar
      * @return Puede devolver false si no son iguales o true si lo son
      */
