@@ -8,6 +8,9 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test de la clase Persona
+ */
 class PersonaTest {
     Persona p1 =new Persona(12345679,"Kamila",'M',8,03,2005);;
     Persona p2 =new Persona(16161616,"Karina",'M',15,04,1976);

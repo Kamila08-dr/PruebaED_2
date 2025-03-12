@@ -8,6 +8,10 @@ package org.example;
  *
  * @author Kamila Dorregaray
  */
+
+/**
+ * Clase que contiene un Nif con su respectivo número
+ */
 public class Nif {
 
     private int numero;

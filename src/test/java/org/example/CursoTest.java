@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test de la Clase Curso
+ */
 class CursoTest {
 
     Curso curso = new Curso("ASIR");

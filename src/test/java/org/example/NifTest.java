@@ -8,6 +8,9 @@ import java.util.TreeSet;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test de la clase Nif
+ */
 class NifTest {
 
     Nif n=new Nif(12345679);
@@ -50,6 +53,6 @@ class NifTest {
         assertAll("Iguales",
                 ()->assertEquals(false, n.equals(n2)),
                 ()->assertEquals(true, n.equals(n3)));
-        }
+
     }
 }

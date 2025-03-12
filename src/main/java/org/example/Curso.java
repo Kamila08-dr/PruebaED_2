@@ -11,6 +11,10 @@ import java.util.TreeSet;
  *
  * @author Kamila Dorregaray
  */
+
+/**
+ * Cursos que contiene el nombre del curso y una lista de sus alumnos
+ */
 public class Curso {
 
     private String nombre;

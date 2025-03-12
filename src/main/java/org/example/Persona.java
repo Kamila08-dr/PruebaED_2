@@ -12,6 +12,9 @@ import java.util.Objects;
  * @author Kamila Dorregaray
  */
 
+/**
+ * Perdona que contiene un nif, nombre, genero y su fecha de nacimiento
+ */
 public class Persona implements Comparable<Persona> {
 
     private Nif nif;
