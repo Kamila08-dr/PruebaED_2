@@ -16,10 +16,18 @@ public class Curso {
     private String nombre;
     private TreeSet<Persona> listaAlumnos;
 
+    /**
+     * Muestra la lista de Alumnos
+     * @return lista de alumnos
+     */
     public TreeSet<Persona> getListaAlumnos() {
         return listaAlumnos;
     }
 
+    /**
+     * Muestra el nombre de la Asignatura
+     * @return nombre del Curso
+     */
     protected String getNombre() {
         return nombre;
     }

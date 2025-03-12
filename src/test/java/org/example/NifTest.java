@@ -22,22 +22,34 @@ class NifTest {
     void tearDown() {
     }
 
+    /**
+     * Test para el metodo toString()
+     * Verifica que la representación en cadena del Nif es la esperada.
+     */
     @Test
     void testToString() {
         assertEquals("12345679-S", n.toString());
     }
 
+    /**
+     * Test para el metodo setNif(int)
+     * Verifica que el metodo cambia correctamente el valor del Nif
+     */
     @Test
     void setNif() {
         n.setNif(16161616);
         assertEquals("16161616-E", n.toString());
     }
 
+    /**
+     * Test para el metodo equals(Object)
+     * Verifica que dos objetos Nif son iguales o diferentes correctamente.
+     */
     @Test
     void testEquals() {
         assertAll("Iguales",
                 ()->assertEquals(false, n.equals(n2)),
                 ()->assertEquals(true, n.equals(n3)));
-    }
+        }
     }
 }

@@ -19,6 +19,10 @@ class CursoTest {
     void tearDown() {
     }
 
+    /**
+     * Test para el metodo getNombre()
+     * Verifica que el nombre del curso se obtiene correctamente.
+     */
     @Test
     void TestGetNombre() {
         assertAll(
@@ -27,6 +31,10 @@ class CursoTest {
         );
     }
 
+    /**
+     * Test para el metodo aniadirAlumno(Persona)}
+     * Verifica que un alumno se añade correctamente a la lista de alumnos del curso.
+     */
     @Test
     void TestAniadirAlumno() {
 
