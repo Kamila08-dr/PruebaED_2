@@ -9,7 +9,7 @@ import java.util.TreeSet;
 
 /**
  *
- * @author ProfDiurno
+ * @author Kamila Dorregaray
  */
 public class Curso {
 
@@ -24,11 +24,20 @@ public class Curso {
         return nombre;
     }
 
+    /**
+     * Constructor que recibe el Nombre del Curso y inicializa el
+     * TreeSet en donde se guardara la lista de Alumnos
+     * @param nombre nombre del curso
+     */
     public Curso(String nombre) {
         this.nombre = nombre;
         listaAlumnos = new TreeSet<>();
     }
 
+    /**
+     * Devuele una cadena donde se muestran los Alumno de la asignatura
+     * @return cadena con informacion de los Alumnos de la Asignatura
+     */
     @Override
     public String toString() {
         String s = "--------------------" + nombre + "-----------------\n";
@@ -40,6 +49,10 @@ public class Curso {
         return s;
     }
 
+    /**
+     * Agrega un objeto de persona a listaAlumnos
+     * @param p Objeto Persona que queremos agregar
+     */
     public void aniadirAlumno(Persona p) {
         listaAlumnos.add(p);
     }
